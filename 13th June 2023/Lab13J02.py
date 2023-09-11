@@ -1,0 +1,7 @@
+print("Start")
+while True:
+    user_input = input("Enter a Number or Type exit for break the loop")
+    print("You have written this number\n"+ user_input)
+    if user_input == "exit" :
+        break
+print("End")
